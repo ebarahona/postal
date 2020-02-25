@@ -2,10 +2,10 @@ source 'https://rubygems.org'
 gem 'rails', '= 5.0.2'
 gem 'mysql2', '>= 0.3.18', '< 0.5'
 gem 'puma', '~> 3.0'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.6'
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.2'
-gem 'jquery-rails'
+gem 'coffee-rails', '~> 4.2', '>= 4.2.1'
+gem 'jquery-rails', '>= 4.2.1'
 gem 'turbolinks', '~> 5'
 gem 'haml'
 gem 'nifty-utils'
@@ -39,6 +39,6 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console'
-  gem 'annotate'
+  gem 'web-console', '>= 3.3.1'
+  gem 'annotate', '>= 2.7.2'
 end
