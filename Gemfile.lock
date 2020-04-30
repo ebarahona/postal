@@ -84,10 +84,10 @@ GEM
       execjs
     coffee-script-source (1.10.0)
     concurrent-ruby (1.0.5)
-    createsend (4.1.0)
+    createsend (4.1.2)
       hashie (~> 3.0)
-      httparty (~> 0.10)
-      json (~> 1.0)
+      httparty (~> 0.14)
+      json (>= 1.0)
     debug_inspector (0.0.2)
     deep_merge (1.1.1)
     dynamic_form (1.1.4)
@@ -99,14 +99,15 @@ GEM
       multipart-post (>= 1.2, < 3)
     foreman (0.82.0)
       thor (~> 0.19.1)
-    gelf (3.0.0)
+    gelf (3.1.0)
       json
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     haml (4.0.7)
       tilt
-    hashie (3.4.6)
-    httparty (0.14.0)
+    hashie (3.6.0)
+    httparty (0.18.0)
+      mime-types (~> 3.0)
       multi_xml (>= 0.5.2)
     i18n (0.8.1)
     jquery-rails (4.2.1)
@@ -130,7 +131,7 @@ GEM
     minitest (5.10.1)
     mongo (2.2.4)
       bson (~> 4.0)
-    multi_xml (0.5.5)
+    multi_xml (0.6.0)
     multipart-post (2.0.0)
     mysql2 (0.4.4)
     nifty-utils (1.1.7)
@@ -222,12 +223,12 @@ DEPENDENCIES
   chronic
   clockwork
   coffee-rails (~> 4.2)
-  createsend (~> 4.0)
+  createsend (~> 4.1, >= 4.1.1)
   dynamic_form
   encrypto_signo
   epoll
   foreman
-  gelf
+  gelf (>= 3.0.0)
   haml
   hashie
   jquery-rails
@@ -249,4 +250,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   1.14.5
+   1.17.3
