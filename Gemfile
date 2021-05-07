@@ -1,16 +1,16 @@
 source 'https://rubygems.org'
-gem 'rails', '= 5.0.2'
+gem 'rails', '= 5.2.4.6'
 gem 'mysql2', '>= 0.3.18', '< 0.5'
 gem 'puma', '~> 3.0'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.6'
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.2'
-gem 'jquery-rails'
+gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
+gem 'jquery-rails', '>= 4.2.1'
 gem 'turbolinks', '~> 5'
 gem 'haml'
 gem 'nifty-utils'
 gem 'nilify_blanks'
-gem 'kaminari'
+gem 'kaminari', '>= 0.17.0'
 gem 'bcrypt'
 gem 'foreman'
 gem 'hashie'
@@ -39,6 +39,6 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console'
+  gem 'web-console', '>= 3.3.1'
   gem 'annotate'
 end
