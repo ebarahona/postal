@@ -1,18 +1,18 @@
 source 'https://rubygems.org'
-gem 'rails', '= 5.0.2'
+gem 'rails', '= 5.0.3'
 gem 'mysql2', '>= 0.3.18', '< 0.5'
 gem 'puma', '~> 3.0'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.7'
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.2'
-gem 'jquery-rails'
+gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
+gem 'jquery-rails', '>= 4.2.2'
 gem 'turbolinks', '~> 5'
 gem 'haml'
 gem 'nifty-utils'
 gem 'nilify_blanks'
 gem 'kaminari'
 gem 'bcrypt'
-gem 'foreman'
+gem 'foreman', '>= 0.86.0'
 gem 'hashie'
 gem 'authie', '~> 3.0'
 gem 'dynamic_form'
@@ -39,6 +39,6 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console'
+  gem 'web-console', '>= 3.4.0'
   gem 'annotate'
 end
