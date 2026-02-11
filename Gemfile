@@ -27,7 +27,7 @@ gem 'clockwork'
 gem 'encrypto_signo'
 gem 'epoll', :require => nil
 gem 'mongo'
-gem 'sentry-raven'
+gem 'sentry-raven', '>= 3.0.0'
 gem 'gelf'
 gem 'moonrope', :git => 'https://github.com/adamcooke/moonrope', :branch => 'master'
 gem 'jwt'
